@@ -1,0 +1,2 @@
+cd C:\Users\avina\workspace\myStoreV1
+mvn clean install

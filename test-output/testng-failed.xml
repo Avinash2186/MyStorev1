@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [myStore Suite]">
+  <listeners>
+    <listener class-name="com.myStore.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="MyStore Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.myStore.testCases.TC_LoginTest_002">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TestLogin"/>
+        </methods>
+      </class> <!-- com.myStore.testCases.TC_LoginTest_002 -->
+    </classes>
+  </test> <!-- MyStore Test(failed) -->
+</suite> <!-- Failed suite [myStore Suite] -->

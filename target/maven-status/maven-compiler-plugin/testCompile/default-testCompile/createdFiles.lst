@@ -1,0 +1,10 @@
+com\myStore\utilities\Reporting.class
+com\myStore\testCases\TC_LoginTest_002.class
+com\myStore\testCases\TC_LoginTest_001.class
+com\myStore\pageObjects\BaseClass.class
+com\myStore\pageObjects\Home.class
+com\myStore\pageObjects\Login.class
+com\myStore\utilities\ReadConfig.class
+com\myStore\utilities\XLUtils.class
+com\myStore\pageObjects\Womens.class
+com\myStore\testCases\TC_LoginDDT_002.class
